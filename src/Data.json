@@ -1,0 +1,109 @@
+[
+    {"events" : [{"name":"VC-EXPO", "eventDaysnumber": 3, "start":"2021-04-06",  "caption":"Welcome to the world of Virtual Exhibition"}]},
+
+    {"sections" : ["home", "agenda", "gallery", "auditorium","network", "photography", "feedback", "entertainment"]},
+
+    {"sponsor" : ["logo-animation1.png", "logo-animation2.png", "logo-animation3.png", "logo-animation4.png"]},
+
+    {"agenda" : [
+	
+        {"day":"day1", "session":"session1", "arcVid": "d1v1.mp4", "sessionTime":"10:00 AM to 11:00 AM", "agenda":"Registraion and familarisation with the platform", "image":"registration.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day1", "session":"session1", "arcVid": "d1v2.mp4", "sessionTime":"11:00 AM to 12:00 PM", "agenda":"Fund Update", "image":"fund.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
+        
+        {"day":"day1", "session":"session1", "arcVid": "d1v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"agenda.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/platform-bg.mp4"  },
+        
+        {"day":"day1", "session":"session1", "arcVid": "d1v4.mp4", "sessionTime":"01:00 PM to 02:00 PM", "agenda":"Lunch Break", "image":"lunch.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day1", "session":"session2", "arcVid": "d1v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"agenda.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4"  },
+        
+        {"day":"day1", "session":"session2", "arcVid": "d1v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
+        
+        {"day":"day1", "session":"session2", "arcVid": "d1v7.mp4", "sessionTime":"04:00 PM to 04:30 PM", "agenda":"Coffee Break", "image":"coffee.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day1", "session":"session3", "arcVid": "d1v8.mp4", "sessionTime":"04:15 PM to 05:00 PM", "agenda":"Portfolio Presentation Mumbai", "image":"presentation.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/platform-bg.mp4"  },
+        
+        {"day":"day1", "session":"session3", "arcVid": "d1v9.mp4", "sessionTime":"07:50 PM to 8:40 PM", "agenda":"Portfolio Presentation Bangalore", "image":"presentation.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4" },
+        
+        
+        {"day":"day2", "session":"session1", "arcVid": "d2v1.mp4", "sessionTime":"10:00 AM to 11:00 AM", "agenda":"Day2 presentation", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
+        
+        {"day":"day2", "session":"session1", "arcVid": "d2v2.mp4", "sessionTime":"11:00 AM to 12:00 PM", "agenda":"Fund Update", "image":"fund.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day2", "session":"session1", "arcVid": "d2v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
+        
+        {"day":"day2", "session":"session1", "arcVid": "d2v4.mp4", "sessionTime":"01:00 PM to 02:00 PM", "agenda":"Lunch Break", "image":"lunch.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day2", "session":"session2", "arcVid": "d2v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"agenda.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/platform-bg.mp4"  },
+        
+        {"day":"day2", "session":"session2", "arcVid": "d2v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"agenda.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day2", "session":"session2", "arcVid": "d2v7.mp4", "sessionTime":"04:00 PM to 04:30 PM", "agenda":"Coffee Break", "image":"coffee.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day2", "session":"session3", "arcVid": "d2v8.mp4", "sessionTime":"04:30 PM to 05:00 PM", "agenda":"Portfolio Presentation Mumbai", "image":"presentation.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/platform-bg.mp4"  },
+        
+        {"day":"day2", "session":"session3", "arcVid": "d2v9.mp4", "sessionTime":"05:00 PM to 07:30 PM", "agenda":"Portfolio Presentation Bangalore", "image":"presentation.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4" },
+        
+        
+        {"day":"day3", "session":"session1", "arcVid": "d3v1.mp4", "sessionTime":"10:00 AM to 11:00 AM", "agenda":"Day3 presentation", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
+        
+        {"day":"day3", "session":"session1", "arcVid": "d3v2.mp4", "sessionTime":"11:00 AM to 12:00 PM", "agenda":"Fund Update", "image":"fund.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day3", "session":"session1", "arcVid": "d3v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
+        
+        {"day":"day3", "session":"session1", "arcVid": "d3v4.mp4", "sessionTime":"01:00 PM to 02:00 PM", "agenda":"Lunch Break", "image":"lunch.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day3", "session":"session2", "arcVid": "d3v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
+        
+        {"day":"day3", "session":"session2", "arcVid": "d3v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"" , "video":"video/platform-bg.mp4"},
+        
+        {"day":"day3", "session":"session2", "arcVid": "d3v7.mp4", "sessionTime":"04:00 PM to 04:30 PM", "agenda":"Coffee Break", "image":"agenda.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
+        
+        {"day":"day3", "session":"session3", "arcVid": "d3v8.mp4", "sessionTime":"04:30 PM to 05:00 PM", "agenda":"Portfolio Presentation Mumbai", "image":"presentation.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
+        
+        {"day":"day3", "session":"session3", "arcVid": "d3v9.mp4", "sessionTime":"05:00 PM to 05:30 PM", "agenda":"Portfolio Presentation Bangalore", "image":"presentation.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"}
+        
+        
+        ]
+
+    },
+    
+    {"stall": [
+        {"Stall":"stall1", "name":"Tech Mahindra", "logo":"logo_techMahindra.png", "button":"stall1.png", "stallBig":"stall1_big.png", 
+            "button1":"stall1-btn1.png", "button2":"stall1-btn2.png", "button3":"stall1-btn3.png", "brochure":"stall1-brochure.png", "w1": "30", 
+            "video":"stall1-btn1.png", "w2": "30", "enquiry":"stall1-enquiry.png", "w3": "39", 
+            "links": "<h5>Brochures</h5><a class='deepLink' href='brochure/brochure.pdf' target='_blank'>Tech Mahindra Annual Report 2019-2020</a><a class='deepLink' href='/brochure/brochure.pdf' target='_blank'>Tech Mahindra Petants</a><a class='deepLink' href='/brochure/brochure.pdf' target='_blank'>Tech Mahindra Software Innovations</a>",
+            "info": "Chorus_call_social.mp4",
+        "contact": "<h5>Contact</h5> <p>Tech Mahindra</p> <p>1800 120 1441 / 1800 3000 1441</p> <a class='deepLink' href='mailto:india@choruscall.com' target='_blank'>india@choruscall.com</a> <a class='deepLink' href='www.choruscall.com/in' target='_blank'>www.choruscall.com/in</a>"},
+        
+        {"Stall":"stall2", "name":"Samsung", "logo":"logo_Samsung.png", "button":"stall2.png", "stallBig":"stall2_big.png", 
+            "button1":"stall2-btn1.png", "button2":"stall2-btn2.png", "button3":"stall2-btn3.png", "brochure":"stall2-brochure.png", "w1": "25", 
+            "video":"stall2-btn1.png", "w2": "25", "enquiry":"stall2-enquiry.png", "w3": "49",
+            "links":"<h5>Brochures</h5><a class='deepLink' href='/brochure/brochure.pdf' target='_blank'>Samsung Electronis Products</a><a class='deepLink' href='/brochure/brochure.pdf' target='_blank'>Samsung AI/ VR  devices</a><a href='/brochure/brochure.pdf' target='_blank'>Samsung Asia Annual Reports</a>",
+            "info":"platform-bg.mp4",
+        "contact":"<h5>Contact</h5> <p>Samsung (I) Pvt Ltd</p> <p>1800 120 1441 / 1800 3000 1441</p> <a class='deepLink' href='mailto:india@choruscall.com' target='_blank'>india@choruscall.com</a> <a class='deepLink' href='www.choruscall.com/in' target='_blank'>www.choruscall.com/in</a>"},
+        
+        {"Stall":"stall3", "name":"Mcfee", "logo":"logo_Mcfee.png", "button":"stall3.png", "stallBig":"stall3_big.png", 
+            "button1":"stall3-btn1.png", "button2":"stall3-btn2.png", "button3":"stall3-btn3.png", "brochure":"stall3-brochure.png", "w1": "25", 
+            "video":"stall3-btn1.png", "w2": "45", "enquiry":"stall3-enquiry.png", "w3": "29",
+            "links":"<h5>Brochures</h5><a class='deepLink' href='/brochure/brochure.pdf' target='_blank' title='Macfee software downloads'>Macfee software downloads</a><a class='deepLink' href='/brochure/brochure.pdf' target='_blank'>Macfee new releases</a><a class='deepLink' href='/brochure/brochure.pdf' target='_blank'>Macfee antivirus for new technologies</a>",
+            "info":"Chorus_call_social.mp4",
+        "contact":"<h5>Contact</h5> <p>Mcfee Services (I) Pvt Ltd</p> <p>1800 120 1441 / 1800 3000 1441</p> <a class='deepLink' href='mailto:india@choruscall.com' target='_blank'>india@choruscall.com</a> <a class='deepLink' href='www.choruscall.com/in' target='_blank'>www.choruscall.com/in</a>"}
+        ]
+
+    },
+
+    {"network" : [
+        {"booth":"Tech Mahindra", "logo":"logo_techMahindra.png", "button":"network_1.png", "sponsor":"logo_sp1.png", "brandColor":"rgba(201, 76, 76, .5)", "gateway": "<img src='img/meeting1.jpg' width='100%'>" },
+        
+        {"booth":"Samsung", "logo":"logo_Samsung.png", "button":"network_2.png", "sponsor":"logo_sp2.png", "brandColor":"rgba(3, 79, 132, .5)", "gateway": "<img src='img/meeting2.jpg' width='100%'>" },
+        
+        {"booth":"ICICI Bank", "logo":"logo_ICICI.png", "button":"network_3.png", "sponsor":"logo_sp3.png", "brandColor":"rgba(189, 87, 52, .5)", "gateway": "<img src='img/meeting3.jpg' width='100%'>" },
+        
+        {"booth":"Mcfee", "logo":"logo_Mcfee.png", "button":"network_4.png", "sponsor":"logo_sp4.png", "brandColor":"rgba(200, 51, 73, .5)","gateway": "<img src='img/meeting4.jpg' width='100%'>"}
+        
+        ]
+
+    }
+
+]

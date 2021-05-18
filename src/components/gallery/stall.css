@@ -1,0 +1,14 @@
+.stall {
+	width: 75vw;
+	height: 70vh;
+	margin: 25vh auto;
+	padding: 0;
+	position: relative;
+}
+
+.stallCard {
+	width: 25vw;
+	border: 1px solid red;
+	position: relative;
+	float: left;
+}

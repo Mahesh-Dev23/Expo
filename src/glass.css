@@ -1,0 +1,595 @@
+body {
+	background-color: #add8e6;
+	color: #010525;
+}
+
+#today,
+.today {
+	background-color: #5f9ea0;
+	color: #ffffff;
+}
+
+h1 {
+	color: rgba(95, 158, 160, 0.9);
+	text-shadow: 0px 0px 7px #b0c4de;
+	-webkit-text-stroke: 2px #add8e6;
+}
+
+h2 {
+	color: #ffffff;
+	background: rgba(95, 158, 160, 0.4);
+}
+
+h3 {
+	color: #5f9ea0;
+}
+
+h4 {
+	color: #5f9ea0;
+}
+
+h5 {
+	color: #5f9ea0;
+}
+
+h6 {
+	color: #faf0e6;
+}
+
+.branding2 h2 {
+	color: #010525;
+}
+
+#fPassword {
+	margin: 15px auto;
+	color: #5f9ea0;
+	text-align: center;
+}
+
+#fPassword:hover {
+	color: #20b2aa;
+}
+
+@keyframes neon {
+	from {
+		text-shadow: 0px 0px 7px #b0c4de;
+		-webkit-text-stroke: 2px #ffffff;
+	}
+	to {
+		text-shadow: 0px 0px 10px #add8e6;
+		-webkit-text-stroke: 2px #b0c4de;
+	}
+}
+
+@-webkit-keyframes neon {
+	from {
+		text-shadow: 0px 0px 7px #b0c4de;
+		-webkit-text-stroke: 2px #ffffff;
+	}
+	to {
+		text-shadow: 0px 0px 10px #add8e6;
+		-webkit-text-stroke: 2px #b0c4de;
+	}
+}
+
+p {
+	color: #010525;
+}
+
+#eventCaption {
+	color: #ffffff;
+	background: rgba(95, 158, 160, 0.2);
+}
+
+.pageTitle {
+	text-shadow: 0px 0px 5px #add8e6;
+	background: rgba(95, 158, 160, 0.4);
+}
+
+.border {
+	border: 0px solid #010525;
+}
+
+.logout {
+	background: white;
+	border-top: 2px solid #5f9ea0;
+	border-bottom: 2px solid #87ceeb;
+}
+
+.login {
+	background: rgba(255, 255, 255, 0.3);
+	padding: 20px;
+	box-shadow: 0px 0px 5px #add8e6 inset;
+}
+
+.centerCardNetwork2 {
+	width: 100%;
+	height: 100%;
+	background: rgba(173, 216, 230, 0);
+}
+
+img {
+	filter: contrast(110%) brightness(110%) opacity(80%) grayscale(20%);
+}
+
+/* registraion form -------------------------------------------------------------------------------------------------- */
+#regDisplayAll {
+	background: rgba(240, 248, 255, 0.5);
+}
+
+.reghere {
+	margin: auto;
+	width: 60%;
+	padding-top: 5vh;
+}
+
+.registeredForEvent {
+	background: white;
+	padding: 20px;
+	border-top: 2px solid #5f9ea0;
+	border-bottom: 2px solid #87ceeb;
+}
+
+#regDisplayAll h2 {
+	border-radius: 0px;
+}
+
+/* Main -------------------------------------------------------------------------------------------------------------- */
+#main {
+	background-image: linear-gradient(
+		to bottom,
+		#5f9ea0,
+		#e0e2e4,
+		#f0ffff,
+		#87ceeb
+	);
+}
+
+.buttons {
+	background-image: linear-gradient(
+		to bottom,
+		rgba(224, 226, 228, 0),
+		rgba(224, 226, 228, 0.5),
+		rgba(224, 226, 228, 0.9),
+		rgba(224, 226, 228, 0)
+	);
+}
+
+.alerts2,
+.alerts3,
+.alerts2 p {
+	color: #010525;
+	margin: 10px;
+	text-align: center;
+}
+
+/* Agenda -------------------------------------------------------------------------------------------------------------- */
+.dayAgenda {
+	margin-top: 5vh;
+	height: 100vh;
+}
+
+.navbar ul li:hover,
+.nav-link:hover {
+	background: #20b2aa;
+}
+
+.cardAgenda {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 0px 5px #b0c4de inset;
+}
+
+.cardAgenda h4 {
+	text-decoration: none;
+	color: #5f9ea0;
+}
+
+.currentEvent h4 {
+	color: #5f9ea0;
+}
+
+.session,
+.time {
+	color: #444444;
+	text-decoration: none;
+}
+
+/* Stall -------------------------------------------------------------------------------------------------------------- */
+#sec_gallery {
+	background-image: linear-gradient(to bottom, #e1e8ed, #ffffff, #f0ffff);
+}
+
+.stallCard {
+	border: 0px solid pink;
+	background: rgba(173, 216, 230, 0.3);
+	height: auto;
+	max-width: 95%;
+	box-shadow: 0px 0px 5px #add8e6 inset;
+}
+
+.brochureDisplay a {
+	background: rgba(240, 255, 255, 0.5);
+	color: #5f9ea0;
+	text-decoration: none;
+	border: 1px solid rgba(173, 216, 230, 0.8);
+}
+
+.brochureDisplay h5,
+.contactDisplay h5 {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+	text-decoration: none;
+}
+
+.contactDisplay a {
+	text-decoration: none;
+	color: #5f9ea0;
+}
+
+.brochureDisplay a:hover,
+.contactDisplay a:hover {
+	color: #20b2aa;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	background-color: rgba(173, 216, 230, 0);
+}
+
+.stallroundButton {
+	border-radius: 15px 0px 0px 15px;
+}
+
+.popContainerBG {
+	background: rgba(240, 255, 255, 0.5);
+	box-shadow: 0px 0px 5px #add8e6 inset;
+}
+
+/* Auditorium -------------------------------------------------------------------------------------------------------------- */
+#sec_auditorium {
+	background-image: linear-gradient(
+		to right,
+		#b0e0e6,
+		#f0ffff 20%,
+		#b0e0e6 20%,
+		#b0e0e6 80%,
+		#f0ffff 80%,
+		#b0e0e6
+	);
+}
+
+/* Network -------------------------------------------------------------------------------------------------------------- */
+#sec_networking {
+	background-image: linear-gradient(to bottom, #deeaee, #f0ffff);
+	background-position: -5% 20%, 105% 30%;
+	background-repeat: no-repeat, no-repeat;
+	animation: 80s slideLeftOn infinite linear;
+	-webkit-animation: 80s slideLeftOn infinite linear;
+}
+
+.networkCard {
+	background: rgba(173, 216, 230, 0.3);
+	box-shadow: 0px 0px 5px #add8e6 inset;
+	max-width: 99%;
+}
+
+/* Photo -------------------------------------------------------------------------------------------------------------- */
+#sec_photo {
+	background-image: linear-gradient(to bottom, #deeaee, #f0ffff);
+	background-position: -5% 20%, 105% 30%;
+	background-repeat: no-repeat, no-repeat;
+	animation: 80s slideLeftOn infinite linear;
+	-webkit-animation: 80s slideLeftOn infinite linear;
+}
+
+/* Feedback -------------------------------------------------------------------------------------------------------------- */
+#sec_feedback {
+	background-image: linear-gradient(to bottom, #deeaee, #ffffff, #dfe3ee);
+}
+
+.feedback {
+	position: relative;
+	margin: auto;
+	min-width: 50%;
+	width: 50%;
+	height: auto;
+	min-height: 60vh;
+	background: rgba(255, 255, 255, 0.85);
+	border-top: 2px solid #5f9ea0;
+	border-bottom: 2px solid #87ceeb;
+}
+
+.feedbackIndicators li {
+	color: #ffffff;
+	background: #5f9ea0;
+}
+
+.feedbackIndicators li:hover {
+	background: #20b2aa;
+}
+
+.feedbackIndicators li:active,
+li .fidinds .active {
+	color: #5f9ea0;
+	background: #20b2aa;
+}
+
+.feedbackIndicators .active {
+	background: rgba(1, 5, 37, 0.5);
+}
+
+#feedContent {
+	box-shadow: 0px 0px 5px #add8e6 inset;
+	background: rgba(240, 255, 255, 0.5);
+}
+
+#feedContent a {
+	color: #ffffff;
+	background: #5f9ea0;
+}
+
+#feedContent a:hover {
+	color: #5f9ea0;
+	background: #20b2aa;
+}
+
+.carousel-control-prev {
+	border-radius: 0px 15px 15px 0px;
+}
+
+.carousel-control-next {
+	border-radius: 15px 0px 0px 15px;
+}
+
+.afterResponce {
+	position: absolute;
+	width: calc(100% - 80px);
+	text-align: center;
+	background: #010525;
+	bottom: 0;
+	margin-bottom: -50px;
+	border: 1px solid #5f9ea0;
+	padding: 10px;
+}
+
+.afterResponce p {
+	color: #ffffff;
+}
+
+.afterResponce a {
+	margin-right: 1px;
+}
+
+.res1,
+.res2,
+.res3,
+.res4,
+.res5,
+.res6,
+.res7,
+.res8,
+.res9,
+.res10 {
+	color: #5f9ea0;
+}
+
+/* Games -------------------------------------------------------------------------------------------------------------- */
+#sec_entertainment {
+	padding: 0 5vh;
+	background-image: linear-gradient(
+		to bottom,
+		#b2b2b2,
+		#f4e1d2,
+		#f0efef,
+		#e4d1d1
+	);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.gamecards {
+	background: rgba(173, 216, 230, 0.3);
+	background: rgba(240, 255, 255, 0.5);
+	max-width: 99%;
+	box-shadow: 0px 0px 5px #add8e6 inset;
+}
+
+/* Modal -------------------------------------------------------------------------------------------------------------- */
+.modal {
+	background: rgba(173, 216, 230, 0.7);
+}
+
+.modal-content {
+	background: rgba(255, 255, 255, 0);
+	border: 0px solid #010525;
+}
+
+.responce {
+	background: #ffffff;
+	border-top: 1px solid #5f9ea0;
+	border-bottom: 1px solid #5f9ea0;
+}
+
+.card1 {
+	height: auto;
+	min-height: 30px;
+	padding: 10px;
+	background: rgba(240, 248, 255, 0.1);
+}
+
+.card2 {
+	height: auto;
+	min-height: 30px;
+	padding: 10px;
+	background: rgba(240, 248, 255, 0.2);
+}
+
+button.close {
+	background: #5f9ea0;
+	opacity: 1;
+	right: 0;
+	position: absolute;
+	margin-right: 5px;
+}
+
+/* Buttons -------------------------------------------------------------------------------------------------------------- */
+.btn-primary {
+	background: #5f9ea0;
+	border: 2px solid rgba(32, 178, 170, 0.1);
+	color: #fff0f5;
+	box-shadow: 0px 0px 5px #b0c4de inset;
+}
+
+.btn-primary:hover {
+	background: #20b2aa;
+	border: 2px solid #20b2aa, 0;
+	box-shadow: 0px 0px 5px #ffffff inset;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+	background-color: #5f9ea0;
+	border-color: #5f9ea0;
+	box-shadow: 0 0 0 0.25rem rgba(95, 158, 160, 0.5);
+}
+
+.btn-check:checked + .btn-primary,
+.btn-check:active + .btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+	background-color: #5f9ea0;
+	border-color: #5f9ea0;
+}
+
+.btn-check:checked + .btn-primary:focus,
+.btn-check:active + .btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+	box-shadow: 0 0 0 0.25rem rgba(95, 158, 160, 0.5);
+}
+
+.btn-primary:active {
+	background: #20b2aa;
+	border: 2px solid #20b2aa;
+}
+
+/* Froms -------------------------------------------------------------------------------------------------------------- */
+input,
+button {
+	color: #686256;
+}
+
+input[placeholder],
+#regDisplayAll .form-check-label {
+	color: #686256;
+}
+
+.form-text {
+	color: #faf0e6;
+}
+
+.form-check-input:focus,
+.form-select:focus,
+.form-check-input:checked {
+	border-color: #20b2aa;
+	background-color: #20b2aa;
+}
+
+.form-check:hover {
+	background: rgba(32, 178, 170, 0.1);
+	cursor: pointer;
+}
+
+.form-control {
+	border: 1px solid #ffffff;
+	height: 46px;
+	background: rgba(173, 216, 230, 0.3);
+	box-shadow: 0px 0px 5px #add8e6 inset;
+	color: #faf0e6;
+}
+
+.form-group {
+	color: #faf0e6;
+}
+
+.inside {
+	background: #ffffff;
+}
+
+.roundBottomButton {
+	position: sticky;
+	width: 30px;
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+}
+
+#regform .form-check {
+	background: #add8e6;
+}
+
+textarea {
+	border: 1px solid rgba(173, 216, 230, 0.5);
+}
+
+.form-control[readonly] {
+	background: #add8e6;
+}
+
+/* Video -------------------------------------------------------------------------------------------------------------- */
+.video {
+	position: relative;
+	margin: auto;
+	min-width: 100%;
+	width: 100%;
+	height: auto;
+	background: rgba(255, 255, 255, 0.5);
+	border: 5px solid #ffffff;
+}
+
+/* display page -------------------------------------- */
+.datadisplay {
+	background: rgba(240, 255, 255, 0.5);
+	box-shadow: 0px 0px 5px #add8e6 inset;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+/* corners ---------------------------------- */
+.corner,
+.login,
+.stallCard,
+.networkCard,
+#feedContent,
+.gamecards,
+.logout,
+.popContainerBG {
+	border-radius: 20px;
+}
+
+.corner5,
+.btn-primary,
+input,
+.form-group,
+.form-check,
+.form-control,
+.cardAgenda {
+	border-radius: 5px;
+}
+
+.form-group,
+.form-check,
+.form-control,
+.cardAgenda {
+	margin-bottom: 5px;
+}
+
+.stallroundButton {
+	border-radius: 15px 0px 0px 15px;
+}

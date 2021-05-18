@@ -1,0 +1,32 @@
+.main {
+	width: 72vh;
+	height: 72vh;
+	margin: 0 auto;
+	margin-top: 15vh;
+}
+.b1 {
+	width: 36vh;
+	position: absolute;
+	margin-left: 18vh;
+}
+.b2 {
+	width: 36vh;
+	position: absolute;
+	margin-left: 0;
+	margin-top: 24vh;
+	z-index: 100;
+}
+.b3 {
+	width: 36vh;
+	position: absolute;
+	margin-left: 36vh;
+	margin-top: 24vh;
+	z-index: 100;
+}
+.b4 {
+	width: 36vh;
+	position: absolute;
+	margin-left: 18vh;
+	margin-top: 33vh;
+	z-index: 101;
+}

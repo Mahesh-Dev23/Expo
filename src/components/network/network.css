@@ -1,0 +1,14 @@
+.network {
+	width: 80vw;
+	height: 70vh;
+	margin: 20vh auto;
+	padding: 0;
+	position: relative;
+}
+
+.networkCard {
+	width: 20vw;
+	border: 1px solid red;
+	position: relative;
+	float: left;
+}

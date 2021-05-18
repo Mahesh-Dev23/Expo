@@ -1,0 +1,46 @@
+.navbar-right {
+	background: rgba(0, 0, 0, 0);
+	position: fixed;
+	right: 0;
+	top: 25%;
+	width: 60px;
+	padding: 10px 0;
+	border-radius: 10px 0 0 10px;
+	z-index: 999;
+}
+
+.navbar ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 5px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+.navbar ul li a {
+	padding-top: 5px;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a .active {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar li,
+.navbar a {
+	height: 40px;
+}
+
+.navbar-fixed-bottom {
+	background: rgba(0, 0, 0, 0.7);
+	width: 100vw;
+	display: none;
+	margin: 0;
+}
