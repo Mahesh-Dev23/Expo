@@ -5,7 +5,7 @@ import './network.css'
 function Network(props) {
     const boothCard = props.boothDetails
     return (
-        <div className="section">
+        <div className="section" id={props.pageTitle}>
             <h4 className="pageTitle">{props.pageTitle}</h4>
             <div className="network">
                 {boothCard.map(booth =>

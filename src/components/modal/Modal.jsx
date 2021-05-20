@@ -32,8 +32,8 @@ class Modal extends React.Component {
         
         
         return (  
-            <div className="modalNew d-flex flex-wrap align-content-center">
-                <button onClick = {() => this.clickHandle(false)}   className="roundButton">X </button>
+            <div className="modalNew d-flex flex-wrap align-content-center flex-column">
+                <button onClick = {() => this.clickHandle(false)}   className="roundButton"><i class="far fa-times-circle"></i> </button>
                 {this.props.children}
             </div>
         );

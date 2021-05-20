@@ -15,7 +15,7 @@ class Gallery extends React.Component {
         const stallCard = this.props.stallDetails
         console.log(stallCard)
         return ( 
-            <div className="section">
+            <div className="section" id={this.props.pageTitle}>
                 <h4 className="pageTitle">{this.props.pageTitle}</h4>
                 <div className="stall">
                     {stallCard.map(stall =>

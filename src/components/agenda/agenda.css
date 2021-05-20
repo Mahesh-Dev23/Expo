@@ -1,0 +1,18 @@
+.agenda {
+	width: 90vw;
+	height: 70vh;
+	margin: auto;
+	padding: 0;
+	position: relative;
+}
+
+.agenda h4 {
+	font-size: 1.4rem;
+}
+.agenda h5 {
+	font-size: 1rem;
+}
+.cardAgenda {
+	padding: 10px;
+	margin-bottom: 2px;
+}

@@ -8,7 +8,6 @@
 
 .networkCard {
 	width: 20vw;
-	border: 1px solid red;
 	position: relative;
 	float: left;
 }

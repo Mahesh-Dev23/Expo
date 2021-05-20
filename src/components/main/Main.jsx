@@ -7,9 +7,13 @@ import Top from '../top/Top'
 import './main.css'
 
 function Main(props) {
+
+   const showModalApp = (show) =>{
+        props.showModalApp(show)
+    }
     return (
-        <div className="section">
-            <Top events = { props.events} val = {props.val}/>
+        <div className="section" id={props.pageTitle}>
+            <Top events = { props.events} val = {props.val} showModal = {showModalApp}/>
             <div className="main">
                 <B1 />
                 <B2 />

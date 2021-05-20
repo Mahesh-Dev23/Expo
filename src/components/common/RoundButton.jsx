@@ -8,7 +8,7 @@ function RoundButton (props) {
        
     }
     return (
-        <button onClick = {() => clickHandle("false")} className="roundButton">X</button>
+        <button onClick = {() => clickHandle("false")} className="roundButton">{props.children}</button>
     )
 }
 

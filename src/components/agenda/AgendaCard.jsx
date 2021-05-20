@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from '../common/Image'
 class AgendaCard extends React.Component {
     constructor(props) {
         super(props);
@@ -6,11 +7,11 @@ class AgendaCard extends React.Component {
     }
     render() { 
         return (  
-            <div>
-                <div>
-
+            <div className="col-sm-4 row cardAgenda">
+                <div className="col-sm-4">
+                    <Image img = {this.props.agendaCardDetails.image}/>
                 </div>
-                <div>
+                <div className="col-sm-8">
                     <h4>{this.props.agendaCardDetails.agenda}</h4>
                     <h5>{this.props.agendaCardDetails.sessionTime}</h5>
                 </div>

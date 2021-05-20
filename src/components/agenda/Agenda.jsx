@@ -1,5 +1,6 @@
 import React from 'react'
 import AgendaCard from './AgendaCard'
+import './agenda.css'
 
 class Agenda extends React.Component {
     constructor(props) {
@@ -13,10 +14,10 @@ class Agenda extends React.Component {
     render() { 
         const agendaCard = this.props.agendaDetails
         return ( 
-            <div className="login p-2">
-                <h4>This is agenda!</h4>
-                {agendaCard.map(agenda => <AgendaCard agendaCardDetails ={agenda} />)}
-            </div>
+            < >
+                <h4 className="pageTitle">{this.props.pageTitle}</h4>
+                <div className="agenda  row " >{agendaCard.map(agenda => <AgendaCard agendaCardDetails ={agenda} />)}</div>
+            </>
          );
     }
 }

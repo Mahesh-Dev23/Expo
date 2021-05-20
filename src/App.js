@@ -37,18 +37,19 @@ class App extends React.Component {
   getClickedValue = hide => this.setState({show: hide})
     
   
+   
   
   
   render() {
     
-    const agenda = <Agenda agendaDetails={this.state.agenda.agenda}/>
+    const agenda = <Agenda agendaDetails={this.state.agenda.agenda} pageTitle = {this.state.section.sections[1]}/>
     const login = <LogIn />
     const modalContent = agenda
     return (
       <div className="container-fluid">
         
        <Sections.Provider value = {this.state.section.sections}> 
-        <Main events = { this.state.eventDetails.events[0]} val = {this.state.section} /> 
+        <Main events = { this.state.eventDetails.events[0]} val = {this.state.section} pageTitle = {this.state.section.sections[0]} showModalApp = { this.getClickedValue}/> 
        </Sections.Provider>
        <Gallery stallDetails = {this.state.gallery.stall} pageTitle = {this.state.section.sections[2]}/>
        <Auditorium pageTitle = {this.state.section.sections[3]}/>

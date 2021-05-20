@@ -12,7 +12,7 @@ function Navbar() {
         <>
         <nav class="navbar navbar-right">
             <ul class="nav ">
-                {sectionLinks.map((value, index) => <li key = {index}><a  href = {`# ${value}`}><Image img = {`${value}.png`}/></a></li>)}  
+                {sectionLinks.map((value, index) => <li key = {index}><a  href = {`#${value}`}><Image img = {`${value}.png`}/></a></li>)}  
             </ul>
         </nav>    
         </>

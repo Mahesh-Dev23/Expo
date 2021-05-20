@@ -1,5 +1,5 @@
 [
-    {"events" : [{"name":"VC-EXPO", "eventDaysnumber": 3, "start":"2021-04-06",  "caption":"Welcome to the world of Virtual Exhibition"}]},
+    {"events" : [{"name":"VC-EXPO", "eventDaysnumber": 3, "start":"2021-04-06",  "caption":"Welcome to the React Js Demo of Virtual Exhibition"}]},
 
     {"sections" : ["home", "agenda", "gallery", "auditorium","network", "photography", "feedback", "entertainment"]},
 
@@ -11,13 +11,13 @@
         
         {"day":"day1", "session":"session1", "arcVid": "d1v2.mp4", "sessionTime":"11:00 AM to 12:00 PM", "agenda":"Fund Update", "image":"fund.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
         
-        {"day":"day1", "session":"session1", "arcVid": "d1v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"agenda.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/platform-bg.mp4"  },
+        {"day":"day1", "session":"session1", "arcVid": "d1v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"update.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/platform-bg.mp4"  },
         
         {"day":"day1", "session":"session1", "arcVid": "d1v4.mp4", "sessionTime":"01:00 PM to 02:00 PM", "agenda":"Lunch Break", "image":"lunch.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
         
-        {"day":"day1", "session":"session2", "arcVid": "d1v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"agenda.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4"  },
+        {"day":"day1", "session":"session2", "arcVid": "d1v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"update.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4"  },
         
-        {"day":"day1", "session":"session2", "arcVid": "d1v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
+        {"day":"day1", "session":"session2", "arcVid": "d1v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"update.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
         
         {"day":"day1", "session":"session2", "arcVid": "d1v7.mp4", "sessionTime":"04:00 PM to 04:30 PM", "agenda":"Coffee Break", "image":"coffee.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
         
@@ -26,17 +26,17 @@
         {"day":"day1", "session":"session3", "arcVid": "d1v9.mp4", "sessionTime":"07:50 PM to 8:40 PM", "agenda":"Portfolio Presentation Bangalore", "image":"presentation.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4" },
         
         
-        {"day":"day2", "session":"session1", "arcVid": "d2v1.mp4", "sessionTime":"10:00 AM to 11:00 AM", "agenda":"Day2 presentation", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
+        {"day":"day2", "session":"session1", "arcVid": "d2v1.mp4", "sessionTime":"10:00 AM to 11:00 AM", "agenda":"Day2 presentation", "image":"update.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
         
         {"day":"day2", "session":"session1", "arcVid": "d2v2.mp4", "sessionTime":"11:00 AM to 12:00 PM", "agenda":"Fund Update", "image":"fund.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4" },
         
-        {"day":"day2", "session":"session1", "arcVid": "d2v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
+        {"day":"day2", "session":"session1", "arcVid": "d2v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"update.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
         
         {"day":"day2", "session":"session1", "arcVid": "d2v4.mp4", "sessionTime":"01:00 PM to 02:00 PM", "agenda":"Lunch Break", "image":"lunch.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
         
-        {"day":"day2", "session":"session2", "arcVid": "d2v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"agenda.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/platform-bg.mp4"  },
+        {"day":"day2", "session":"session2", "arcVid": "d2v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"update.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/platform-bg.mp4"  },
         
-        {"day":"day2", "session":"session2", "arcVid": "d2v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"agenda.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4" },
+        {"day":"day2", "session":"session2", "arcVid": "d2v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"update.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4" },
         
         {"day":"day2", "session":"session2", "arcVid": "d2v7.mp4", "sessionTime":"04:00 PM to 04:30 PM", "agenda":"Coffee Break", "image":"coffee.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4" },
         
@@ -45,17 +45,17 @@
         {"day":"day2", "session":"session3", "arcVid": "d2v9.mp4", "sessionTime":"05:00 PM to 07:30 PM", "agenda":"Portfolio Presentation Bangalore", "image":"presentation.png", "linkEvent":"liveEvent.php", "target":"_blank", "video":"video/Chorus_call_social.mp4" },
         
         
-        {"day":"day3", "session":"session1", "arcVid": "d3v1.mp4", "sessionTime":"10:00 AM to 11:00 AM", "agenda":"Day3 presentation", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
+        {"day":"day3", "session":"session1", "arcVid": "d3v1.mp4", "sessionTime":"10:00 AM to 11:00 AM", "agenda":"Day3 presentation", "image":"update.png", "linkEvent":"#sec_auditorium", "target":"", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
         
         {"day":"day3", "session":"session1", "arcVid": "d3v2.mp4", "sessionTime":"11:00 AM to 12:00 PM", "agenda":"Fund Update", "image":"fund.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4" },
         
-        {"day":"day3", "session":"session1", "arcVid": "d3v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
+        {"day":"day3", "session":"session1", "arcVid": "d3v3.mp4", "sessionTime":"12:00 PM to 01:00 PM", "agenda":"Company Updates Delhi", "image":"update.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/platform-bg.mp4" },
         
         {"day":"day3", "session":"session1", "arcVid": "d3v4.mp4", "sessionTime":"01:00 PM to 02:00 PM", "agenda":"Lunch Break", "image":"lunch.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
         
-        {"day":"day3", "session":"session2", "arcVid": "d3v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
+        {"day":"day3", "session":"session2", "arcVid": "d3v5.mp4", "sessionTime":"02:00 PM to 03:00 PM", "agenda":"Company Updates Mumbai", "image":"update.png", "linkEvent":"#sec_auditorium", "target":"", "video":"video/Chorus_call_social.mp4"  },
         
-        {"day":"day3", "session":"session2", "arcVid": "d3v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"agenda.png", "linkEvent":"#sec_auditorium", "target":"" , "video":"video/platform-bg.mp4"},
+        {"day":"day3", "session":"session2", "arcVid": "d3v6.mp4", "sessionTime":"03:00 PM to 04:00 PM", "agenda":"Company Updates Bangalore", "image":"update.png", "linkEvent":"#sec_auditorium", "target":"" , "video":"video/platform-bg.mp4"},
         
         {"day":"day3", "session":"session2", "arcVid": "d3v7.mp4", "sessionTime":"04:00 PM to 04:30 PM", "agenda":"Coffee Break", "image":"agenda.png", "linkEvent":"#sec_entertainment", "target":"", "video":"video/Chorus_call_social.mp4" },
         
