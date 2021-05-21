@@ -5,18 +5,21 @@
      const {name, caption } = props.events
      
      
+     
 
-     const clickHandle =  show =>  {
-        props.showModal(show) 
-          
+     const clickHandle =  (show, modalContentKey) =>  {
+        props.showModal(show, modalContentKey)  
     }
+
+    // document.getElementById("agenda-m").addEventListener("click", clickHandle(true, "agenda") )
+
      return (
          <div>
              <h1>{name}</h1>
              <h3>{caption}</h3>
-             <Navbar />
+             <Navbar showModal ={ clickHandle}/>
             
-             <button onClick = {() => {clickHandle(true)}}   className="roundButton"> <i class="far fa-user-circle"></i> </button>   
+             <button onClick = {() => {clickHandle(true, "user")}}   className="roundButton"> <i class="far fa-user-circle"></i> </button>   
          </div>
      )
  }

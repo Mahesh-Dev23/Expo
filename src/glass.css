@@ -288,12 +288,6 @@ img {
 }
 
 .feedback {
-	position: relative;
-	margin: auto;
-	min-width: 50%;
-	width: 50%;
-	height: auto;
-	min-height: 60vh;
 	background: rgba(255, 255, 255, 0.85);
 	border-top: 2px solid #5f9ea0;
 	border-bottom: 2px solid #87ceeb;

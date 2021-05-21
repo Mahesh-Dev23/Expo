@@ -8,8 +8,9 @@ import './main.css'
 
 function Main(props) {
 
-   const showModalApp = (show) =>{
-        props.showModalApp(show)
+   const showModalApp = (show, modalContentKey) =>{
+        props.showModalApp(show, modalContentKey)
+        
     }
     return (
         <div className="section" id={props.pageTitle}>

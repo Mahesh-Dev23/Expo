@@ -4,9 +4,8 @@ import RoundButton from '../common/RoundButton'
 function User(props) {
     return (
         <>
-           <RoundButton > 
-            <i class="far fa-user-circle"></i>
-           </RoundButton>
+            <h1>User Profile</h1>
+           
         </>
     )
 }

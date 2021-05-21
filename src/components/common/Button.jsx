@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Button() {
-    return (
-        <button onClick = {clickHandle}></button>
+const Button = ({children, ...otherprops}) => (
+        <button  className = "custom-button" {...otherprops}>{children}</button>
     )
-}
+
 
 export default Button

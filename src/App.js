@@ -14,6 +14,9 @@ import Auditorium from './components/auditorium/Auditorium'
 import Photography from './components/photography/Photography'
 import Feedback from './components/feedback/Feedback'
 import Games from './components/entertainment/Games'
+import User from './components/user/User'
+import FeedbackForm from './components/feedback/FeedbackForm'
+import StallPop from './components/gallery/StallPop'
 
 export const Sections = React.createContext()
 
@@ -23,6 +26,7 @@ class App extends React.Component {
   
     this.state = {
       show: true,
+      modalContentKey: "login",
       eventDetails: Data[0],
       section: Data[1],
       sponsor: Data[2],
@@ -34,17 +38,30 @@ class App extends React.Component {
   }
 
   
-  getClickedValue = hide => this.setState({show: hide})
+  getClickedValue = (show, modalContentKey) => { alert(modalContentKey)
+    this.setState({show: show, modalContentKey: modalContentKey})
+  }
     
-  
-   
-  
-  
+    
   render() {
-    
+    //creating constants of maodal contents
     const agenda = <Agenda agendaDetails={this.state.agenda.agenda} pageTitle = {this.state.section.sections[1]}/>
     const login = <LogIn />
-    const modalContent = agenda
+    const user = <User />
+    const feedback = <FeedbackForm />
+    const stallPop = <StallPop />
+
+    //appending modal content as per button clicked
+    const modalContent = this.state.modalContentKey === "agenda" ? agenda : 
+    this.state.modalContentKey === "user" ?   user :
+    this.state.modalContentKey === "feedback" ?   feedback :
+    this.state.modalContentKey === "stallPop" ?  stallPop : login 
+    
+
+    //if there is no modal content the modal should not open
+    
+    
+    //alert(modalContent)
     return (
       <div className="container-fluid">
         

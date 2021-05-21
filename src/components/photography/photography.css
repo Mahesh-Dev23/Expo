@@ -1,0 +1,14 @@
+.photography1 {
+	position: relative;
+	float: left;
+}
+
+.photography2 {
+	position: relative;
+	float: right;
+}
+
+.photography3 {
+	position: relative;
+	margin: auto;
+}
