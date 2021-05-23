@@ -1,0 +1,23 @@
+.b2img,
+.b3img,
+.b4img {
+	visibility: hidden;
+}
+
+.slide {
+	visibility: visible;
+	animation-name: moveUp;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+@keyframes moveUp {
+	0% {
+		opacity: 0;
+		margin-top: 60vh;
+	}
+
+	100% {
+		opacity: 1;
+		margin-top: 0;
+	}
+}

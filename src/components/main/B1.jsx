@@ -9,4 +9,4 @@ function B1() {
     )
 }
 
-export default B1
+export default React.memo(B1)

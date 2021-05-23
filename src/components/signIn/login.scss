@@ -1,4 +1,4 @@
-$sub-color: grey;
+$sub-color: rgba(95, 158, 160, 0.9);
 $main-color: black;
 
 .login {
@@ -18,7 +18,7 @@ $main-color: black;
 
 	.form-input {
 		background: none;
-		background-color: white;
+
 		color: $sub-color;
 		font-size: 18px;
 		padding: 10px 10px 10px 5px;
@@ -56,4 +56,11 @@ $main-color: black;
 			@include shrinkLabel();
 		}
 	}
+}
+
+.loginImage {
+	display: none;
+	position: relative;
+	margin-left: 30%;
+	margin-bottom: -13vh;
 }

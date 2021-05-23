@@ -1,5 +1,6 @@
 import './App.css';
 import './glass.css'
+import './animations.css'
 import Data from './Data.json'
 
 
@@ -17,14 +18,17 @@ import Games from './components/entertainment/Games'
 import User from './components/user/User'
 import FeedbackForm from './components/feedback/FeedbackForm'
 import StallPop from './components/gallery/StallPop'
+import Visits from './components/common/Visits'
 
 export const Sections = React.createContext()
+export const UserInitial = React.createContext()
 
 class App extends React.Component {
   constructor(props) {
     super(props)
   
     this.state = {
+      userName: '',
       show: true,
       modalContentKey: "login",
       eventDetails: Data[0],
@@ -37,16 +41,22 @@ class App extends React.Component {
     }
   }
 
+  componentDidMount(){
+    this.setState({userName: <i class="far fa-user-circle"></i>})
+    // document.getElementById("b2").className="b2 slide" 
+  }
   
   getClickedValue = (show, modalContentKey) => { alert(modalContentKey)
     this.setState({show: show, modalContentKey: modalContentKey})
   }
-    
+  
+  getUserName = loggeduserName => {this.setState({userName:loggeduserName})}
     
   render() {
     //creating constants of maodal contents
+    alert(`App user: ${this.state.userName}`)
     const agenda = <Agenda agendaDetails={this.state.agenda.agenda} pageTitle = {this.state.section.sections[1]}/>
-    const login = <LogIn />
+    const login = <LogIn closeModal = { this.getClickedValue} userName ={this.getUserName}/>
     const user = <User />
     const feedback = <FeedbackForm />
     const stallPop = <StallPop />
@@ -58,15 +68,18 @@ class App extends React.Component {
     this.state.modalContentKey === "stallPop" ?  stallPop : login 
     
 
-    //if there is no modal content the modal should not open
+    //user initital for top right place
+    let userInitialLetter = this.state.userName
     
     
     //alert(modalContent)
     return (
       <div className="container-fluid">
         
-       <Sections.Provider value = {this.state.section.sections}> 
-        <Main events = { this.state.eventDetails.events[0]} val = {this.state.section} pageTitle = {this.state.section.sections[0]} showModalApp = { this.getClickedValue}/> 
+       <Sections.Provider value = {this.state.section.sections} > 
+        <UserInitial.Provider value = {userInitialLetter}>
+          <Main events = { this.state.eventDetails.events[0]} val = {this.state.section} pageTitle = {this.state.section.sections[0]} showModalApp = { this.getClickedValue}/> 
+        </UserInitial.Provider>
        </Sections.Provider>
        <Gallery stallDetails = {this.state.gallery.stall} pageTitle = {this.state.section.sections[2]}/>
        <Auditorium pageTitle = {this.state.section.sections[3]}/>
@@ -76,6 +89,8 @@ class App extends React.Component {
        <Games pageTitle = {this.state.section.sections[7]}/>
         
        { this.state.show ? <Modal closeModal = { this.getClickedValue}>{modalContent}</Modal> : ''}
+
+       <Visits />
         
       </div>
     )

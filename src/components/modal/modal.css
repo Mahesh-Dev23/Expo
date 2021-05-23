@@ -1,5 +1,4 @@
 .modalNew {
-	background: rgba(224, 226, 228, 0.9);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -8,5 +7,5 @@
 	margin: 0;
 	padding: 0;
 	z-index: 999;
-	overflow-y: auto;
+	overflow: hidden;
 }

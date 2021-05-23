@@ -19,7 +19,7 @@ class Gallery extends React.Component {
                 <h4 className="pageTitle">{this.props.pageTitle}</h4>
                 <div className="stall">
                     {stallCard.map(stall =>
-                    <div className="stallCard">   
+                    <div className="stallCard slide" id={stall.name} onClick={()=> alert(stall.name)}>   
                         <div className="logo"><Image img = {stall.logo} /></div>
                         <h3>{stall.name}</h3>
                         <Image img = {stall.button}/>

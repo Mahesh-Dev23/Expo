@@ -6,8 +6,6 @@ import {Sections} from '../../App'
 function Navbar(props) {
     const sectionLinks = useContext(Sections)
     console.log(sectionLinks)
-
-    
     
     const clickHandle =  (show, modalContentKey) =>  {
         modalContentKey === "agenda" ? props.showModal(show, modalContentKey) : props.showModal(false, modalContentKey)
